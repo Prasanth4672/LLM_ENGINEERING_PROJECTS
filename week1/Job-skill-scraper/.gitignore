@@ -1,0 +1,23 @@
+# Environment variables — never commit secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# uv
+.uv/
+uv.lock
+
+# Output
+output/
+
+# OS
+.DS_Store
+Thumbs.db
