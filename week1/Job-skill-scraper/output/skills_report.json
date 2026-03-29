@@ -1,0 +1,190 @@
+{
+  "job_title": "Data Engineer",
+  "industry": "Fintech",
+  "total_listings_analysed": 7,
+  "top_hard_skills": [
+    {
+      "name": "data warehouse",
+      "count": 2,
+      "percentage": 28.6
+    },
+    {
+      "name": "etlelt",
+      "count": 2,
+      "percentage": 28.6
+    },
+    {
+      "name": "cloud computing",
+      "count": 2,
+      "percentage": 28.6
+    },
+    {
+      "name": "software development",
+      "count": 2,
+      "percentage": 28.6
+    },
+    {
+      "name": "financial industry practices",
+      "count": 2,
+      "percentage": 28.6
+    },
+    {
+      "name": "data warehousing",
+      "count": 2,
+      "percentage": 28.6
+    },
+    {
+      "name": "data modeling",
+      "count": 2,
+      "percentage": 28.6
+    },
+    {
+      "name": "python",
+      "count": 2,
+      "percentage": 28.6
+    },
+    {
+      "name": "data engineering",
+      "count": 2,
+      "percentage": 28.6
+    },
+    {
+      "name": "machine learning",
+      "count": 2,
+      "percentage": 28.6
+    },
+    {
+      "name": "mlops",
+      "count": 2,
+      "percentage": 28.6
+    },
+    {
+      "name": "generative ai",
+      "count": 2,
+      "percentage": 28.6
+    }
+  ],
+  "top_tools": [
+    {
+      "name": "aws",
+      "count": 4,
+      "percentage": 57.1
+    },
+    {
+      "name": "power bi",
+      "count": 2,
+      "percentage": 28.6
+    },
+    {
+      "name": "cicd",
+      "count": 2,
+      "percentage": 28.6
+    },
+    {
+      "name": "snowflake",
+      "count": 2,
+      "percentage": 28.6
+    },
+    {
+      "name": "python",
+      "count": 2,
+      "percentage": 28.6
+    }
+  ],
+  "top_soft_skills": [
+    {
+      "name": "collaboration",
+      "count": 5,
+      "percentage": 71.4
+    },
+    {
+      "name": "communication",
+      "count": 3,
+      "percentage": 42.9
+    },
+    {
+      "name": "ownership",
+      "count": 2,
+      "percentage": 28.6
+    }
+  ],
+  "top_certifications": [],
+  "skill_co_occurrences": [
+    {
+      "skill_a": "aws",
+      "skill_b": "python",
+      "count": 3
+    },
+    {
+      "skill_a": "cicd",
+      "skill_b": "cloud computing",
+      "count": 2
+    },
+    {
+      "skill_a": "cicd",
+      "skill_b": "data warehouse",
+      "count": 2
+    },
+    {
+      "skill_a": "cicd",
+      "skill_b": "etlelt",
+      "count": 2
+    },
+    {
+      "skill_a": "cicd",
+      "skill_b": "financial industry practices",
+      "count": 2
+    },
+    {
+      "skill_a": "cicd",
+      "skill_b": "power bi",
+      "count": 2
+    },
+    {
+      "skill_a": "cicd",
+      "skill_b": "software development",
+      "count": 2
+    },
+    {
+      "skill_a": "cloud computing",
+      "skill_b": "data warehouse",
+      "count": 2
+    },
+    {
+      "skill_a": "cloud computing",
+      "skill_b": "etlelt",
+      "count": 2
+    },
+    {
+      "skill_a": "cloud computing",
+      "skill_b": "financial industry practices",
+      "count": 2
+    }
+  ],
+  "top_hiring_companies": [
+    {
+      "company": "FIS",
+      "count": 2
+    },
+    {
+      "company": "amazon",
+      "count": 1
+    },
+    {
+      "company": "Harnham",
+      "count": 1
+    },
+    {
+      "company": "Ports North",
+      "count": 1
+    },
+    {
+      "company": "Avant",
+      "count": 1
+    },
+    {
+      "company": "Welltower",
+      "count": 1
+    }
+  ]
+}
