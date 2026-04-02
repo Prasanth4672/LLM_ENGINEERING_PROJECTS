@@ -6,7 +6,7 @@ from langchain_core.messages import SystemMessage, HumanMessage, convert_to_mess
 from langchain_core.documents import Document
 import gradio as gr
 
-MODEL = "kimi-k2.5:cloud"
+MODEL = "gpt-oss:latest" #gemma:latest,kimi-k2.5:cloud
 
 # db path and knowledge base path
 DB_NAME = str(Path(__file__).parent.parent / "vector_db")
@@ -54,12 +54,3 @@ def answer_question(question: str, history: list[dict] = []) -> tuple[str, list[
     
     response = llm.invoke(messages)
     return response.content, docs
-
-
-if __name__ == "__main__":
-    question = "Who is Averi Lancaster?"
-    answer, docs = answer_question(question)
-    print("Answer:", answer)
-    print("\nContext Documents:")
-    for doc in docs:
-        print(f"- {doc.metadata.get('source', 'unknown source')}: {doc.page_content[:200]}...")
