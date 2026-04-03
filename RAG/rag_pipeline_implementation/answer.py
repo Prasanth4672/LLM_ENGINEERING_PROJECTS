@@ -6,14 +6,14 @@ from langchain_core.messages import SystemMessage, HumanMessage, convert_to_mess
 from langchain_core.documents import Document
 import gradio as gr
 
-MODEL = "gpt-oss:latest" #gemma:latest,kimi-k2.5:cloud
+MODEL = "kimi-k2.5:cloud" #gemma:latest,kimi-k2.5:cloud
 
 # db path and knowledge base path
 DB_NAME = str(Path(__file__).parent.parent / "vector_db")
 
 # Embedding model
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
-RETRIEVAL_K = 5
+RETRIEVAL_K = 3
 
 SYSTEM_PROMPT_TEMPLATE = """
 You are a knowledgeable, friendly assistant representing the company Insurellm.

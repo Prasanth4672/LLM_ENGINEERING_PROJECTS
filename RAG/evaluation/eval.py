@@ -10,7 +10,7 @@ from rag_pipeline_implementation.answer import answer_question, fetch_context
 
 load_dotenv(override=True)
 
-MODEL = "ollama/gpt-oss:latest" #gemma:latest,kimi-k2.5:cloud
+MODEL = "ollama/kimi-k2.5:cloud" #gemma:latest,kimi-k2.5:cloud
 db_name = "vector_db"
 
 
@@ -92,6 +92,7 @@ def evaluate_retrieval(test: TestQuestion, k: int = 10) -> RetrievalEval:
     retrieved_docs = fetch_context(test.question)
 
     # Calculate MRR (average across all keywords)
+    # sample test : {"question": "When was Insurellm founded?", "keywords": ["2015", "founded"], "reference_answer": "Insurellm was founded in 2015.", "category": "direct_fact"}
     mrr_scores = [calculate_mrr(keyword, retrieved_docs) for keyword in test.keywords]
     avg_mrr = sum(mrr_scores) / len(mrr_scores) if mrr_scores else 0.0
 
